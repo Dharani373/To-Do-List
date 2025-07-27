@@ -14,6 +14,7 @@ def reposition_Tasks():
         current_position += 60
 
 def complete_Task(task_Widget,task_border,task_text):
+    #to print the added task in the console
     print(f" Task Completed : {task_text}")
     task_Widget.destroy()
     task_border.destroy()
