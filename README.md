@@ -1,46 +1,42 @@
-To-Do List Application
-Description
-A simple and intuitive To-Do List application built using Python's tkinter module. This GUI-based application allows users to add, complete, and manage their daily tasks efficiently.
-Features
+<bold>To-Do List Application<bold><hr>
+<bold>Description<bold> <br>
+A simple and intuitive To-Do List application built using Python's tkinter module.<br>
+This GUI-based application allows users to add, complete, and manage their daily tasks efficiently.
+<hr>
 
-✅ Add new tasks with a clean text input interface
-✅ Mark tasks as complete by clicking the radio button/checkbox
-✅ Automatic repositioning of remaining tasks after completion
-✅ Simple and user-friendly graphical interface
-✅ Real-time task management
+<bold>Features<bold> <br>
+✅ Add new tasks with a clean text input interface <br>
+✅ Mark tasks as complete by clicking the radio button <br>
+✅ Automatic repositioning of remaining tasks after completion <br>
+✅ Simple and user-friendly graphical interface <br>
+✅ Real-time task management <br>
+<hr>
 
-Requirements
-
+<bold>Requirements<bold> <br>
 Python 3.x
+<br>
 tkinter (comes pre-installed with Python)
+<hr>
 
-Installation
+<bold>Code Structure <bold> <br>
+<bold>Main Functions: <bold>
+<br>
+1.create_root(): Initializes the main window with all configurations <br>
+2.create_button(): Creates the '+ Add Task' button interface <br>
+3.create_Entry(): Generates a text input field for new tasks <br>
+4.add_Task(task_text): Adds new tasks to the task list <br>
+5.complete_Task(): Removes completed tasks from the list <br>
+6.reposition_Tasks(): Repositions remaining tasks after deletion <br>
+<bold>How to Use<bold> <br>
 
-Clone this repository:
-bashgit clone https://github.com/yourusername/todo-list.git
-cd todo-list
+Click the "+ Add Task" button <br>
+Type your task in the text field that appears <br>
+Press Enter or click outside the text field to add the task <br>
+Click the radio button/checkbox next to a task to mark it as complete <br>
+Completed tasks are automatically removed from the list 
+<hr>
 
-Run the application:
-bash > python todo_app.py
 
-
-How to Use
-
-Click the "+ Add Task" button
-Type your task in the text field that appears
-Press Enter or click outside the text field to add the task
-Click the radio button/checkbox next to a task to mark it as complete
-Completed tasks are automatically removed from the list
-
-Code Structure
-Main Functions:
-
-create_root(): Initializes the main window with all configurations
-create_button(): Creates the '+ Add Task' button interface
-create_Entry(): Generates a text input field for new tasks
-add_Task(task_text): Adds new tasks to the task list
-complete_Task(): Removes completed tasks from the list
-reposition_Tasks(): Repositions remaining tasks after deletion
 
 Author 
 Dharani - Dharani373
