@@ -105,7 +105,7 @@ def create_root(): #for creating the root window
     global root
     root = tk.Tk()
     root.title("To Do List") #sets the title of the window
-    root.geometry("1600x1600") #sets the geometry of the window
+    root.geometry("800x600") #sets the geometry of the window
     label = tk.Label(root,text="To Do List",bg="lavender blush",fg="black",font=("Times New Roman",30,"bold")) #sets the label
     label.pack()
     root.config(bg="lavender blush")
