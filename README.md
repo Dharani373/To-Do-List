@@ -19,8 +19,7 @@ tkinter (comes pre-installed with Python)
 <hr>
 
 **Code Structure** <br>
-**Main Functions:**
-<br>
+**Main Functions:**<br>
 1.create_root( ) : Initializes the main window with all configurations <br>
 2.create_button( ) : Creates the '+ Add Task' button interface <br>
 3.create_Entry( ) : Generates a text input field for new tasks <br>
