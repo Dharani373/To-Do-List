@@ -21,12 +21,12 @@ tkinter (comes pre-installed with Python)
 **Code Structure** <br>
 **Main Functions:**
 <br>
-1.create_root( ): Initializes the main window with all configurations <br>
-2.create_button( ): Creates the '+ Add Task' button interface <br>
-3.create_Entry( ): Generates a text input field for new tasks <br>
-4.add_Task( ): Adds new tasks to the task list <br>
-5.complete_Task( ): Removes completed tasks from the list <br>
-6.reposition_Tasks( ): Repositions remaining tasks after deletion
+1.create_root( ) : Initializes the main window with all configurations <br>
+2.create_button( ) : Creates the '+ Add Task' button interface <br>
+3.create_Entry( ) : Generates a text input field for new tasks <br>
+4.add_Task( ) : Adds new tasks to the task list <br>
+5.complete_Task( ) : Removes completed tasks from the list <br>
+6.reposition_Tasks( ) : Repositions remaining tasks after deletion
 <hr>
 
 **How to Use** <br>
