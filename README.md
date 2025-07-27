@@ -26,9 +26,10 @@ tkinter (comes pre-installed with Python)
 3.create_Entry(): Generates a text input field for new tasks <br>
 4.add_Task(task_text): Adds new tasks to the task list <br>
 5.complete_Task(): Removes completed tasks from the list <br>
-6.reposition_Tasks(): Repositions remaining tasks after deletion <br>
-<bold>How to Use<bold> <br>
+6.reposition_Tasks(): Repositions remaining tasks after deletion
+<hr>
 
+<bold>How to Use<bold> <br>
 Click the "+ Add Task" button <br>
 Type your task in the text field that appears <br>
 Press Enter or click outside the text field to add the task <br>
